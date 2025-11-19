@@ -7,6 +7,7 @@ hakoniwa-drone-core（OSSリポジトリ）を使用して、農薬散布用ド�
 hakoniwa-drone-core側にはラッパースクリプトを配置し、メインの実行ファイルを呼び出す構成です。
 
 ## 現在の状況
+Assetsファイルには畑のデータが入っているので、これを活用して3Dデータを取得してください。
 
 ### リポジトリ構成
 
@@ -35,6 +36,8 @@ hakoniwa-drone-core側にはラッパースクリプトを配置し、メイン�
 
 ```
 /home/naotelu/my-drone/                    # メイン実行ファイル（GitHub共有用）
+|__Assets/ (畑データ用)
+|
 ├── classes/
 │   ├── __init__.py
 │   ├── location.py      # Locationクラス
